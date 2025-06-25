@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome | Algerian Forest Fire Predictor</title>
+</head>
+<body>
+    <h1>🔥 Algerian Forest Fire - FWI Predictor</h1>
+    <p>Welcome to the Fire Weather Index (FWI) prediction tool. This app uses a machine learning model to estimate fire risk based on weather and environmental factors.</p>
+
+    <form action="{{ url_for('predict_datapoint') }}">
+        <button type="submit">Start Prediction</button>
+    </form>
+</body>
+</html>
